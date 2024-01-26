@@ -8,8 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Category.create(name: "Sports")
-Category.create(name: "Politics")
-Category.create(name: "Local")
-Category.create(name: "National")
-Category.create(name: "Global")
+Category.create(name: "Rap")
+Category.create(name: "Edm")
+Category.create(name: "Rock")
+Category.create(name: "Other")
